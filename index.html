@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+    <title>MercadoLiebre</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img class="logo" src="./img/productos/mercado-liebre.png" alt="logo">
+            <br>
+            <a class="productos-header" href="" ><i class='bx bxs-hand'></i>Todos los productos</a>
+        </div>
+
+        <p class="opiniones"><i class='bx bxs-hand'></i>Todas las opiniones</p>
+        <nav class="header-nav">
+            <a href="./registro.html"> <i class='bx bxs-hand'></i>Crea tu cuenta</a>
+            <button href="" data-bs-toggle="modal" data-bs-target="#dialogo1"> <i class='bx bxs-hand'></i>Ingresa tu cuenta</button>
+        </nav>
+       
+
+        <div class="modal fade" id="dialogo1">
+        <div class="modal-dialog">
+             <div class="modal-content">
+                <form action="">
+
+                    <div>
+                        <img src="./img/mercado-liebre.png" alt="">
+                        <h1>Ingresar</h1>
+                    </div>
+                    <div>
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" name="Nombre" id="Nombre">
+                    </div>
+                    
+                        
+                        <button type="button" >Ingresar</button>
+                    </div>
+                </form>
+            </div>
+         </div>
+        </div>
+
+    </header>
+    <main>
+        <section>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/productos/banner1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/productos/banner2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/productos/banner3.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <section class="productos">
+            <h2>Productos</h2>
+            <div class="contenedor-productos">
+                <div>
+                    <img class= "producto" src="./img/productos/oneplus.jpg" alt="">
+                    <h3>OnePlus 11</h3>
+                    <a href="">Comprar</a>
+                </div>
+                <div>
+                    <img class= "producto" src="./img/productos/6700.png" alt="">
+                    <h3>RX 6700XT</h3>
+                    <a href="">Comprar</a>
+                </div>
+                <div>
+                    <img class= "producto" src="./img/productos/macbook.jpg" alt="">
+                    <h3>Macbook Pro M2</h3>
+                    <a href="">Comprar</a>
+                </div>
+                <div>
+                    <img class= "producto" src="./img/productos/viper.jpg" alt="">
+                    <h3>Razer Viper Ultimate    </h3>
+                    <a href="">Comprar</a>
+                </div>
+                
+            </div>
+        </section>
+        <section>
+            <div class="productos_card">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/productos/iphone.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Iphone 14 Pro Max</h5>
+                      <p class="card-text">Sobre este artículo
+                        Pantalla Super Retina XDR de 6.7 pulgadas con siempre encendido y promoción.</p>
+                      <a href="#" class="btn btn-primary">COMPRAR</a>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="./img/productos/RTX.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">RTX 4090</h5>
+                      <p class="card-text">ZOTAC Gaming GeForce RTX 4090 AMP Extreme AIRO 24GB GDDR6X 384-bit 21 Gbps PCIE 4.0 Tarjeta gráfica, IceStorm 3.0 Advanced Cooling, Spectra 2.0 RGB Lighting, ZT-D40900B-10P</p>
+                      <a href="#" class="btn btn-primary">COMPRAR</a>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="./img/productos/teclado.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">HyperX Alloy Origins Core</h5>
+                      <p class="card-text">teclado mecánico para juegos sin teclas, luz controlada por software y personalización macro, factor de forma compacto, retroiluminación LED RGB e interruptor rojo HyperX lineal.</p>
+                      <a href="#" class="btn btn-primary">COMPRAR</a>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="./img/productos/monitor.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">ASUS TUF Gaming</h5>
+                      <p class="card-text">Monitor de juegos de 27 pulgadas 1080P (VG277Q1A) - Full HD, 165 Hz (soporta 144 Hz), 1 ms, Extreme Low Motion Blur, FreeSync Premium, Shadow Boost, Eye Care, HDMI, DisplayPort, inclinación ajustable</p>
+                      <a href="#" class="btn btn-primary">COMPRAR</a>
+                    </div>
+                  </div>
+            </div>
+
+        </section>
+        <section class="productos_dos">
+            <div>
+                <img class="producto-2" src="./img/productos/aire.jpg" alt="Televisión">
+                <h3>Aire Acondicionado Split Trane</h3>
+            </div>
+            <div>
+                <img class="producto-2" src="./img/productos/img-tv-samsung-smart.jpg" alt="Televisión">
+                <h3>Tv Samsung Smart 43' UHD 4K</h3>
+            </div>
+
+        </section>
+
+
+    </main>
+    <footer class="footer-nav columna-footer">
+        <div class="row">
+            <div class="col-4">
+                <h2>Seguinos</h2>
+                <ul>
+                    <li><a href=""><i class='bx bxl-facebook-square' ></i> Facebook</a></li>
+                    <li><a href=""><i class='bx bxl-instagram'></i> Instagram</a></li>
+                    <li><a href=""><i class='bx bxl-linkedin-square'></i> LinkedIn</a></li>
+                    <li><a href=""><i class='bx bxl-youtube'></i> YouTube</a></li>
+                </ul>
+            </div>
+            <div class="col-4 columna-footer">
+                <h2>Otros Servicios</h2>
+                <ul>
+                <li><a href="">Mercado Liebre Pagos</a></li>
+                <li><a href="">Mercado Liebre Shops</a></li>
+                <li><a href="">Mercado Liebre Envíos</a></li>
+                </ul>
+              
+               
+            </div>
+            <div class="col-4 columna-footer">
+                <h2>Trabajá con Nosotros</h2>
+                <input type="text">
+                <button type="button" class="btn btn-primary">Enviar acá</button>
+                
+            </div>
+        
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
